@@ -23,8 +23,13 @@ def main():
     outputs_black = []
 
     for i, (d, l) in enumerate(games):
-        outputs_white.append(l)
-        outputs_black.append(l)
+        if d["White"] == args.player:
+            outputs_white.append(l)
+        if d["Black"] == args.player
+            outputs_black.append(l)
+        if args.player not in [d["White"], d["Black"]]:
+            raise ValueError(f"{args.player} not found in game {i}:\n{l}")
+
         if i % 10000 == 0:
             backend.printWithDate(f"{i} done with {len(outputs_white)}:{len(outputs_black)} players from {args.input}", end = '\r')
     backend.printWithDate(f"{i} found totals of {len(outputs_white)}:{len(outputs_black)} players from {args.input}")

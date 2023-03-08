@@ -1,4 +1,6 @@
+checkpoint
 *.zip
+*.pb.gz
 
 # Byte-compiled / optimized / DLL files
 __pycache__/
