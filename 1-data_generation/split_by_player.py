@@ -25,7 +25,7 @@ def main():
     for i, (d, l) in enumerate(games):
         if d["White"] == args.player:
             outputs_white.append(l)
-        if d["Black"] == args.player
+        if d["Black"] == args.player:
             outputs_black.append(l)
         if args.player not in [d["White"], d["Black"]]:
             raise ValueError(f"{args.player} not found in game {i}:\n{l}")
