@@ -129,7 +129,7 @@ dependencies:
   - pysocks=1.7.1=py37_0
   - python=3.7.4=h265db76_1
   - python-dateutil=2.8.1=py_0
-  - pytorch=1.4.0=py3.7_cuda10.1.243_cudnn7.6.3_0
+  - pytorch
   - pyyaml=5.3=py37h7b6447c_0
   - pyzmq=18.1.1=py37he6710b0_0
   - qt=5.9.7=h5867ecd_1
@@ -155,7 +155,7 @@ dependencies:
   - terminado=0.8.3=py37_0
   - testpath=0.4.4=py_0
   - tk=8.6.8=hbc83047_0
-  - torchvision=0.5.0=py37_cu101
+  - torchvision
   - tornado=6.0.3=py37h7b6447c_0
   - tqdm=4.42.0=py_0
   - traitlets=4.3.3=py37_0
